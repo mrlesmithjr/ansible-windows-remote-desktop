@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Larry Smith Jr.
+  description: your description
+
+  license: license (MIT)
+
+  min_ansible_version: 1.2
+
+  platforms:
+    - name: Windows
+      versions:
+        - all
+
+  galaxy_tags:
+    - remote desktop
+    - management
+
+dependencies: []
