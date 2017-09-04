@@ -1,4 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [ansible-windows-remote-desktop](#ansible-windows-remote-desktop)
+  - [Requirements](#requirements)
+  - [Role Variables](#role-variables)
+  - [Dependencies](#dependencies)
+  - [Example Playbook](#example-playbook)
+  - [License](#license)
+  - [Author Information](#author-information)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # ansible-windows-remote-desktop
+
+An [Ansible](https://www.ansible.com) role to install `Remote Desktop (RDP)` on
+[Windows](https://www.microsoft.com/en-us/windows)
 
 ## Requirements
 
@@ -48,6 +65,13 @@ windows_remote_desktop_firewall: []
 ## Dependencies
 
 ## Example Playbook
+
+```yaml
+---
+- hosts: windows_hosts
+  roles:
+    - role: ansible-windows-remote-desktop
+```
 
 ## License
 
