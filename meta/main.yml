@@ -1,6 +1,6 @@
 galaxy_info:
   author: Larry Smith Jr.
-  description: your description
+  description: An [Ansible](https://www.ansible.com) role to install `Remote Desktop (RDP)` on [Windows](https://www.microsoft.com/en-us/windows)
 
   license: license (MIT)
 
